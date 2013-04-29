@@ -43,7 +43,14 @@
   <ItemGroup>
     <Compile Include="Fibonacci.cs" />
     <Compile Include="FibonacciTest.cs" />
+    <Compile Include="FrequencyToMidiConverterTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pitchez\Pitchez.csproj">
+      <Project>{444af801-e129-4659-85c5-75c504809a81}</Project>
+      <Name>Pitchez</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

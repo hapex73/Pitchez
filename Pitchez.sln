@@ -6,17 +6,30 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioMixer", "AudioMixer\Au
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MbUnitTest", "MbUnitTest\MbUnitTest.csproj", "{82A7109F-46E7-446D-9D30-2403DE79BB11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitchez", "Pitchez\Pitchez.csproj", "{444AF801-E129-4659-85C5-75C504809A81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7EB66BC2-6667-468F-8A95-CF49491CD67F}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{7EB66BC2-6667-468F-8A95-CF49491CD67F}.Debug|Any CPU.Build.0 = Debug|x86
+		{7EB66BC2-6667-468F-8A95-CF49491CD67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB66BC2-6667-468F-8A95-CF49491CD67F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B694862-E243-4527-AAE4-08BAB299B7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B694862-E243-4527-AAE4-08BAB299B7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B694862-E243-4527-AAE4-08BAB299B7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B694862-E243-4527-AAE4-08BAB299B7A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{82A7109F-46E7-446D-9D30-2403DE79BB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{82A7109F-46E7-446D-9D30-2403DE79BB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A7109F-46E7-446D-9D30-2403DE79BB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A7109F-46E7-446D-9D30-2403DE79BB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444AF801-E129-4659-85C5-75C504809A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444AF801-E129-4659-85C5-75C504809A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444AF801-E129-4659-85C5-75C504809A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444AF801-E129-4659-85C5-75C504809A81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
